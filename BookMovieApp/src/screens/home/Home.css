@@ -1,0 +1,14 @@
+.home-header-area-container {
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+}
+
+.home-area-text {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.movies-search-result-container {
+    display: flex;
+}

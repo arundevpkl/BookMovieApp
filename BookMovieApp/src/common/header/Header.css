@@ -1,0 +1,38 @@
+.container-header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 36px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-header-logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    width: 30px;
+}
+
+.imageRotateHorizontal {
+    -moz-animation: spinHorizontal .8s infinite linear;
+    -o-animation: spinHorizontal .8s infinite linear;
+    -webkit-animation: spinHorizontal .8s infinite linear;
+    animation: spinHorizontal .8s infinite linear;
+}
+
+@keyframes spinHorizontal {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.header-button-area {
+    float: inline-end;
+}
+
+.login-register-area-container-align {
+    display: flex;
+    justify-content: center;
+}
